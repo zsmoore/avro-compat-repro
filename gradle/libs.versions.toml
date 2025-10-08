@@ -1,0 +1,9 @@
+[versions]
+avro = "1.11.0"
+
+[libraries]
+avro = {module = "org.apache.avro:avro", version.ref = "avro"}
+
+
+[plugins]
+avro = { id = "com.github.davidmc24.gradle.plugin.avro", version = "1.9.1" }
